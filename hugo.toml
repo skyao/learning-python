@@ -121,7 +121,7 @@ github_project_repo = "https://github.com/skyao/learning-python"
 github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d3c56aefaae284df1"
+gcs_engine_id = "e2b49b6d2c658439c"
 # enable google analytics
 [services.googleAnalytics]
   id = "G-4BVWTNS4MB"
