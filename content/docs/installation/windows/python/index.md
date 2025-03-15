@@ -1,12 +1,15 @@
 ---
-title: "直接安装python"
-linkTitle: "直接安装"
+title: "[不推荐]直接安装python"
+linkTitle: "[不推荐]直接安装"
 weight: 10
 date: 2025-02-02
 description: >
   使用二进制文件直接在 windows 上安装特定版本的 python
 ---
 
+{{% alert title="警告" color="warning" %}}
+不推荐直接安装 python，最好通过 pyenv 或者 anaconda 来安装和管理多个 python 版本。
+{{% /alert %}}
 
 ### 下载
 

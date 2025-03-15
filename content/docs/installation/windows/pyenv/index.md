@@ -39,14 +39,14 @@ git clone https://github.com/pyenv-win/pyenv-win.git "%USERPROFILE%\.pyenv"
 
 增加如下环境变量：
 
-- PYENV="C:\Users\sky\.pyenv\pyenv-win\"
-- PYENV_HOME="C:\Users\sky\.pyenv\pyenv-win\"
-- PYENV_ROOT="C:\Users\sky\.pyenv\pyenv-win\"
+- PYENV=`C:\Users\sky\.pyenv\pyenv-win\`
+- PYENV_HOME=`C:\Users\sky\.pyenv\pyenv-win\`
+- PYENV_ROOT=`C:\Users\sky\.pyenv\pyenv-win\`
 
 修改 PATH 环境变量，增加两个路径：
 
-- %USERPROFILE%\.pyenv\pyenv-win\bin
-- %USERPROFILE%\.pyenv\pyenv-win\shims
+- `%USERPROFILE%\.pyenv\pyenv-win\bin`
+- `%USERPROFILE%\.pyenv\pyenv-win\shims`
 
 重新打开 cmd 或者 git-bash，验证一下：
 
