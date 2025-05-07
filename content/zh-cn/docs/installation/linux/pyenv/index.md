@@ -170,12 +170,12 @@ pyenv install -l | grep 3.11
 pyenv install -l | grep 3.11
 ```
 
-发现 3.11 系列最新的是 3.11.11 版本。
+发现 3.11 系列最新的是 3.11.12 版本。
 
-安装 python 3.11.11 版本：
+安装 python 3.11.12 版本：
 
 ```bash
-pyenv install 3.11.11
+pyenv install 3.11.12
 ```
 
 输出为：
@@ -190,35 +190,35 @@ Installed Python-3.11.11 to /home/sky/.pyenv/versions/3.11.11
 设置 3.11.1 为全局默认版本：
 
 ```bash
-pyenv global 3.11.11
+pyenv global 3.11.12
 ```
 
 验证一下 python 版本：
 
 ```bash
 $ python3 --version
-Python 3.11.11
+Python 3.11.12
 $ python --version
-Python 3.11.9
+Python 3.11.12
 ```
 
-此时通过 `pyenv versions` 命令可以看到系统中只安装了一个 3.11.11 版本和一个系统自带的版本（system）：
+此时通过 `pyenv versions` 命令可以看到系统中只安装了一个 3.11.12 版本和一个系统自带的版本（system）：
 
 ```bash
 $ pyenv versions
 pyenv versions
   system
-* 3.11.11 (set by /home/sky/.pyenv/version)
+* 3.11.12 (set by /home/sky/.pyenv/version)
 ```
 
 此时 pip 版本信息如下：
 
 ```bash
 $ pip --version
-pip 24.0 from /home/sky/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pip (python 3.11)
+pip 24.0 from /home/sky/.pyenv/versions/3.11.12/lib/python3.11/site-packages/pip (python 3.11)
 
 $ pip3 --version
-pip 24.0 from /home/sky/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pip (python 3.11)
+pip 24.0 from /home/sky/.pyenv/versions/3.11.12/lib/python3.11/site-packages/pip (python 3.11)
 ```
 
 ### 安装 3.10 版本
@@ -227,10 +227,10 @@ pip 24.0 from /home/sky/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pip
 pyenv install -l | grep 3.10
 ```
 
-发现 3.10 系列最新的是 3.10.16 版本：
+发现 3.10 系列最新的是 3.10.17 版本：
 
 ```bash
-pyenv install 3.10.16
+pyenv install 3.10.17
 ```
 
 ### 安装 3.12 版本
@@ -242,7 +242,7 @@ pyenv install -l | grep 3.12
 发现 3.12 系列最新的是 3.12.9 版本：
 
 ```bash
-pyenv install 3.12.9
+pyenv install 3.12.10
 ```
 
 ### 切换版本
@@ -252,48 +252,48 @@ pyenv 的 shell 命令用来在当前 shell 中临时设置 python 版本，覆�
 ```bash
 $ pyenv versions
   system
-  3.10.16
-* 3.11.11 (set by /home/sky/.pyenv/version)
+  3.10.17
+* 3.11.12 (set by /home/sky/.pyenv/version)
   3.12.9
 
 $ python3 --version
-Python 3.11.11
+Python 3.11.12
 
-$ pyenv shell 3.12.9
+$ pyenv shell 3.12.10
 
 $ pyenv versions
   system
-  3.10.16
-  3.11.11
-* 3.12.9 (set by PYENV_VERSION environment variable)
+  3.10.17
+  3.11.12
+* 3.12.10 (set by PYENV_VERSION environment variable)
 
 $ python3 --version
-Python 3.12.9
+Python 3.12.10
 ```
 
 pyenv global 命令修改全局默认配置，注意这个修改不会立即生效，需要退出当前 shell 重新打开：
 
 ```bash
-$ pyenv global 3.10.16
+$ pyenv global 3.10.17
 
 # 不直接生效
 $ pyenv versions
   system
-  3.10.16
-  3.11.11
-* 3.12.9 (set by PYENV_VERSION environment variable)
+  3.10.17
+  3.11.12
+* 3.12.10 (set by PYENV_VERSION environment variable)
 
 # 退出当前 shell 重新打开
 $ pyenv versions
   system
-* 3.10.16 (set by /home/sky/.pyenv/version)
-  3.11.11
-  3.12.9
+* 3.10.17 (set by /home/sky/.pyenv/version)
+  3.11.12
+  3.12.10
 
 $ python3 --version
-Python 3.10.16
+Python 3.10.17
 
 $ pip --version
-pip 23.0.1 from /home/sky/.pyenv/versions/3.10.16/lib/python3.10/site-packages/pip (python 3.10)
+pip 23.0.1 from /home/sky/.pyenv/versions/3.10.17/lib/python3.10/site-packages/pip (python 3.10)
 ```
 
