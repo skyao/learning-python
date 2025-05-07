@@ -111,7 +111,7 @@ install.trusted-host='https://pypi.tuna.tsinghua.edu.cn'
 
 验证代理是否可用，可以访问如下的地址:
 
-http://192.168.0.246:8081/repository/pypi-proxy-pypiorg/simple/requests/
+http://192.168.3.91:8081/repository/pypi-proxy-pypiorg/simple/requests/
 
 正常会显示如下：
 
