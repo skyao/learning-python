@@ -28,24 +28,23 @@ python -m pip install --upgrade pip
 输出为:
 
 ```bash
-Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
-Requirement already satisfied: pip in ./.pyenv/versions/3.11.11/lib/python3.11/site-packages (24.0)
+Requirement already satisfied: pip in ./.pyenv/versions/3.10.19/lib/python3.10/site-packages (23.0.1)
 Collecting pip
-  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c9/bc/b7db44f5f39f9d0494071bddae6880eb645970366d0a200022a1a93d57f5/pip-25.0.1-py3-none-any.whl (1.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 4.8 MB/s eta 0:00:00
+  Downloading pip-25.3-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 6.7 MB/s eta 0:00:00
 Installing collected packages: pip
   Attempting uninstall: pip
-    Found existing installation: pip 24.0
-    Uninstalling pip-24.0:
-      Successfully uninstalled pip-24.0
-Successfully installed pip-25.0.1
+    Found existing installation: pip 23.0.1
+    Uninstalling pip-23.0.1:
+      Successfully uninstalled pip-23.0.1
+Successfully installed pip-25.3
 ```
 
 升级之后的 pip 版本：
 
 ```bash
-pip --version
-pip 25.0.1 from /home/sky/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pip (python 3.11)
+$ pip --version
+pip 25.3 from /home/sky/.pyenv/versions/3.10.19/lib/python3.10/site-packages/pip (python 3.10)
 ```
 
 ## 配置国内镜像源
