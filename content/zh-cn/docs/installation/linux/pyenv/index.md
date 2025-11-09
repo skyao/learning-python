@@ -2,7 +2,7 @@
 title: "使用 pyenv 安装"
 linkTitle: "pyenv"
 weight: 10
-date: 2025-03-13
+date: 2025-11-09
 description: >
   使用 pyenv 在 linux 上安装多个版本的 python
 ---

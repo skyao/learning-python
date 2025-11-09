@@ -110,7 +110,7 @@ install.trusted-host='https://pypi.tuna.tsinghua.edu.cn'
 
 验证代理是否可用，可以访问如下的地址:
 
-http://192.168.3.91:8081/repository/pypi-proxy-pypiorg/simple/requests/
+http://192.168.3.193:8081/repository/pypi-proxy-pypiorg/simple/requests/
 
 正常会显示如下：
 
@@ -131,9 +131,9 @@ http://192.168.3.91:8081/repository/pypi-proxy-pypiorg/simple/requests/
 
 ```bash
 [global]
-index-url = http://192.168.0.246:8081/repository/pypi-public/simple
+index-url = http://192.168.3.193:8081/repository/pypi-public/simple
 [install]
-trusted-host = 192.168.0.246:8081
+trusted-host = 192.168.3.193:8081
 ```
 
 尝试安装一个 pdf2zh 验证代理：
@@ -146,11 +146,11 @@ pip install pdf2zh
 
 ```bash
 Collecting shellingham>=1.3.0
-  Downloading http://192.168.0.246:8081/repository/pypi-public/packages/shellingham/1.5.4/shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+  Downloading http://192.168.3.193:8081/repository/pypi-public/packages/shellingham/1.5.4/shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
 Collecting toposort>=1.5
-  Downloading http://192.168.0.246:8081/repository/pypi-public/packages/toposort/1.10/toposort-1.10-py3-none-any.whl (8.5 kB)
+  Downloading http://192.168.3.193:8081/repository/pypi-public/packages/toposort/1.10/toposort-1.10-py3-none-any.whl (8.5 kB)
 Collecting click-default-group>=1.2
-  Downloading http://192.168.0.246:8081/repository/pypi-public/packages/click-default-group/1.2.4/click_default_group-1.2.4-py2.py3-none-any.whl (4.1 kB)
+  Downloading http://192.168.3.193:8081/repository/pypi-public/packages/click-default-group/1.2.4/click_default_group-1.2.4-py2.py3-none-any.whl (4.1 kB)
 ```
 
 安装完成之后再去验证 nexus pypi 代理仓库：
